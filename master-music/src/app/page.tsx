@@ -1,6 +1,8 @@
 import CarouselCard from "@/components/CarouselCard";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import Instructor from "@/components/Instructor";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import Image from "next/image";
 
@@ -11,6 +13,8 @@ export default function Home() {
       <FeaturedCourses/>
       <CarouselCard/>
       <UpcomingWebinars/>
+      <Instructor/>
+      <Footer/>
     </main>
   );
 }
